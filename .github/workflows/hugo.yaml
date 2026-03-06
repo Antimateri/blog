@@ -1,3 +1,13 @@
+baseURL: "/"
+languageCode: en-us
+title: Antimaterial Synergies
+theme: ["hugo-dusk"]
+caches:
+  images:
+    dir: :cacheDir/images
+
+
+
 name: Build and deploy
 on:
   push:
