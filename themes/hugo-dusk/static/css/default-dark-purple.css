@@ -59,6 +59,18 @@ code {
   background-color: var(--main-bg-color) !important;
 }
 
+.post .title {
+  color: var(--main-sec);
+}
+
+.post .post-header {
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0.2em;
+}
+
+.post .subtitle {
+}
+
 blockquote {
   background: var(--main-bg-color);
   border-left: 3px solid var(--main-sec);

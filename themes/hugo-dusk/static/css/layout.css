@@ -7,7 +7,7 @@ body {
 .main {
   margin: auto;
   /*max-width: 42em;*/
-  max-width: 75%;;
+  max-width: 70%;;
 }
 
 .main .header-bar {
@@ -147,9 +147,17 @@ th, td {
   flex-flow: row wrap;
 }
 
-.post .title {
+/*.post .title {
   text-align: center;
 }
+
+.post .subtitle {
+  text-align: center;
+}*/
+
+.post .post-header {
+  padding-left: 5%;
+};
 
 .post .content{
   padding-left: 5%;

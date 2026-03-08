@@ -5,10 +5,11 @@ tags:
   - testing
 #date: "2026-05-03"
 #publishDate: "2026-05-03"
-series:
-  - Random thoughts
+#series:
+#  - Random thoughts
 #syndicate:
 #  - "https://example.org"
+Summary: "This is the first post of the blog, just to test how this works"
 audio: []
 videos: []
 images: []

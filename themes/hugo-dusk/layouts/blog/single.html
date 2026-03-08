@@ -2,8 +2,8 @@
 
 <article class="post">
 
-  <h1 class="title"> {{ .Title }} </h1>
-  <div class="metadata">
+  {{ partial "postheader.html" . }}
+  <!-- <div class="metadata">
   - - -<br>
   title: {{ .Title }} <br>
 
@@ -44,7 +44,7 @@
       </div>
   {{ end }}
   - - -<br>
-  </div>
+  </div> -->
 
   <div class="content"> {{ .Content }} </div>
   {{ partial "postfooter.html" . }}

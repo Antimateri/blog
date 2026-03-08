@@ -1,0 +1,18 @@
+{{if .Params.prerequisites}}
+<div class="prerequisites">
+  prerequisites:
+  {{ $pageContext := . }}
+  {{ range .Params.prerequisites }}
+    {{ $prereqPage := $pageContext.Site.GetPage . }}
+    {{ if $prereqPage }}
+      <div class="prerequisite">
+        <a href="{{ $prereqPage.Permalink }}">{{ $prereqPage.Title }}</a>
+      </div>
+    {{ else }}
+      <div class="prerequisite">
+        <span>Page not found: {{ . }}</span>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

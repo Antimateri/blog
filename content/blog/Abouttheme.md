@@ -8,6 +8,8 @@ date: "2026-03-05"
 publishDate: "2026-03-05"
 series:
   - blog desing
+prerequisites:
+  - "/blog/helloWorld.md"
 #syndicate:
 #  - "https://example.org"
 audio: []
