@@ -8,7 +8,7 @@ theme = ["hugo-dusk"]
 #themesDir = "../.."
 enableRobotsTXT = true
 
-googleAnalytics = ""
+#googleAnalytics = ""
 disqusShortname = ""
 
 SectionPagesMenu = "main"
@@ -25,15 +25,15 @@ SectionPagesMenu = "main"
   identifier = "tag"
   url = "/tags/"
 
-#[[menu.main]]
-#  name = "Archive"
-#  weight = -100
-#  identifier = "archive"
-#  url = "/archive/"
+[[menu.main]]
+  name = "Archive"
+  weight = -100
+  identifier = "archive"
+  url = "/archive/"
 
 [taxonomies]
-  #archive = "archive"
-  #blog = "blog"
+  archive = "archive"
+  blog = "blog"
   prerequisites = "prerequisites"
   category = "categories"
   series = "series"
