@@ -1,16 +1,13 @@
 ---
 title: "About the theme for the blog"
-description: "First post to test how this works"
+description: "How Hugo works and how I used that to design the blog"
 tags:
   - testing
   - programing
 date: "2026-03-05"
 publishDate: "2026-03-05"
 series:
-  - blog desing
-prerequisites:
-  - "/blog/helloWorld.md"
-  - "/blog/abouttheme.md"
+  - blog design
 #syndicate:
 #  - "https://example.org"
 Summary: "An overview of the inner workings of the blog and how this knowledge was used to design the blog"
@@ -19,4 +16,4 @@ videos: []
 images: []
 ---
 
-So, first post, does this work? I decided to start a blog so I can keep records of my projects and the things I learn.
+TODO
