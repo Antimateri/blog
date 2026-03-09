@@ -4,6 +4,13 @@
 {{ if not (.Page.Scratch.Get "mathdefs") }}{{ .Page.Scratch.Set "mathdefs" slice }}{{ end }}
 {{ .Page.Scratch.Add "mathdefs" (dict "type" $type "name" $name "id" $id) }}
 <blockquote id="{{ $id }}">
-  <p><strong>{{ $type }} ({{ $name }}).</strong></p>
+  <strong>{{ $type }} ({{ $name }}).</strong>
   {{ .Inner }}
-</blockquote>
+</blockquote><script>
+  renderMathInElement(document.getElementById('{{ $id }}'), {
+    delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false}
+    ]
+  });
+</script>

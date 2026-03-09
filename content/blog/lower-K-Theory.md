@@ -59,7 +59,7 @@ I will let the reader check that this is a well-defined group homomorphism and t
 
 It may be more usefull to work with the universal property of $K_0$ sometimes:
 
-{{< mathdef type="Proposition" name="Universal property of K_0" >}}
+{{< mathdef type="Proposition" name="Universal property of $K_0$" >}}
 Let $R$ be a ring and let $G$ be an abelian group. Then, for every function $f$ from the set of isomorphism classes of finitely generated projective $R$-modules to $G$ such that for every short exact sequence of finitely generated projective $R$-modules
 $$0 \to P_0 \to P_1 \to P_2 \to 0$$
 we have $f([P_1]) = f([P_0]) + f([P_2])$, there exists a unique group homomorphism $\tilde{f}: K_0(R) \to G$ such that $\tilde{f}([P]) = f([P])$ for every finitely generated projective $R$-module $P$.
@@ -99,7 +99,7 @@ From the last two lemmas we can build a simple example:
 $K_0(\mathbb{R}\oplus \mathbb{Z}) \cong K_0(\mathbb{R}) \oplus K_0(\mathbb{Z}) \cong \mathbb{Z} \oplus \mathbb{Z}\cong \mathbb{Z}^2.$
 {{< /mathdef >}}
 
-{{< mathdef type="Example" name="K_0 of C[Z/p]" >}}
+{{< mathdef type="Example" name="$K_0$ of $\mathbb{C}[Z/p]$" >}}
 To calculate $K_0(\mathbb{C}[\mathbb{Z}/p])$ we must first notice $\mathbb{C}[\mathbb{Z}/p] \cong \mathbb{C}^p$:
 $$K_0(\mathbb{C}[\mathbb{Z}/p]) \cong K_0(\mathbb{C}) \oplus K_0(\mathbb{C}) \oplus \cdots \oplus K_0(\mathbb{C}) \cong \mathbb{Z}^p.$$
 {{< /mathdef >}}

@@ -211,6 +211,10 @@ th, td {
   border-radius: 0.2em;
   margin: 0em 0;
 }
+/* remove underlines from links in toc-box */
+.toc-box a {
+  text-decoration: none;
+}
 /* collapse/expand wrapper */
 .toc-box details {
   margin: 0;
