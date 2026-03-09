@@ -4,8 +4,6 @@
 {{ if not (.Page.Scratch.Get "mathdefs") }}{{ .Page.Scratch.Set "mathdefs" slice }}{{ end }}
 {{ .Page.Scratch.Add "mathdefs" (dict "type" $type "name" $name "id" $id) }}
 <blockquote id="{{ $id }}">
-    {{ if eq $type "Definition" }}
-  <p><strong>{{ $name }}.</strong></p>
-    {{ end }}
+  <p><strong>{{ $type }} ({{ $name }}).</strong></p>
   {{ .Inner }}
 </blockquote>

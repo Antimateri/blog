@@ -21,7 +21,9 @@
       <summary>Index of Definitions</summary>
       <ul>
         {{ range .Scratch.Get "mathdefs" }}
-        <li><a href="#{{ .id }}">{{ .type }} ({{ .name }})</a></li>
+          {{ if eq .type "Definition" }}
+          <li><a href="#{{ .id }}">{{ .name }}</a></li>
+          {{ end }}
         {{ end }}
       </ul>
     </details>
@@ -31,7 +33,9 @@
       <summary>Index of Results</summary>
       <ul>
         {{ range .Scratch.Get "mathdefs" }}
-        <li><a href="#{{ .id }}">{{ .type }} ({{ .name }})</a></li>
+          {{ if or (eq .type "Theorem") (eq .type "Proposition") (eq .type "Lemma") (eq .type "Corollary") }}
+          <li><a href="#{{ .id }}">{{ .type }} ({{ .name }})</a></li>
+          {{ end }}
         {{ end }}
       </ul>
     </details>
