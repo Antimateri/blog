@@ -1,4 +1,4 @@
-baseurl = "https://antimateri.github.io/math/"
+baseurl = "https://antimateri.github.io/blog/math/"
 publishdir = "public/math"
 title = "Antimaterial Synergies"
 copyright = "Copyright (c) 2008 - 2014, all rights reserved."
