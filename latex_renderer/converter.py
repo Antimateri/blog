@@ -23,7 +23,7 @@ def remove_background(image):
 
     out = Image.fromarray(img)
     w, h = out.size
-    return out.crop((0, 0, w, h - 1))
+    return out.crop((0, 0, w-1, h - 1))
 
 
 # Convert PDF pages to images

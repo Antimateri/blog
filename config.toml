@@ -1,4 +1,4 @@
-baseURL = "https://antimateri.github.io/blog"
+baseURL = "https://antimateri.github.io"
 publishdir = "public"
 title = "Antimaterial Synergies"
 copyright = "Copyright (c) 2008 - 2014, all rights reserved."
@@ -61,7 +61,7 @@ SectionPagesMenu = "main"
     enable = true
   [markup.tableOfContents]
     startLevel = 1
-    endLevel = 3
+    endLevel = 2
 
 [params.author]
   name = "Antimateria"

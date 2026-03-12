@@ -10,7 +10,7 @@ publishDate: "2026-03-09"
 series:
   - Topological K-theory
 prerequisites:
-  - "/blog/lower-K-theory.md"
+  - "/blog/lower-K-theory/lower-K-theory.md"
 #  - "/blog/abouttheme.md"
 #syndicate:
 #  - "https://example.org"
